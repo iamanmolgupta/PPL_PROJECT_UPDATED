@@ -195,7 +195,6 @@ return(
                     <ul>
                       <li onClick = {this.handleLatest}><a href="#"><span className="list_img"><img src="images/img_1.png" /></span>Latest First</a></li>
                       <li onClick = {this.handleOldest}><a href="#"><span className="list_img" ><img src="images/img_2.png" /></span>Oldest First</a></li>
-                      <li><a href="#"><span className="list_img"><img src="images/img_3.png" /></span>Most Pet</a></li>
                       <li onClick ={this.handleMostCLick}><a href="#"><span className="list_img"><img src="images/img_4.png" /></span>Most Clicks</a></li>
                       <li onClick = {this.handleCommented}><a href="#"><span className="list_img"><img src="images/img_5.png" /></span>Most Commented</a></li>
                     </ul>
